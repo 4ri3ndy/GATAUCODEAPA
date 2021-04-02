@@ -66,7 +66,7 @@ echo
 load
 clear
 ghost
-echo "Selamat Datang Kak,Siapa Nick Kaka?"
+echo "Selamat Datang Bang Kak,Siapa nama ek kak eh bang?"
 read nick
 clear
 echo "Mohon Tunggu..."
@@ -74,13 +74,13 @@ echo
 load
 clear
 ghost
-echo "Brutal Ghost Project Adalah Tools"
+echo "Note Goal Project Adalah Tools"
 echo "Untuk Melakukan Pencarian Data Perorangan"
 echo
 echo "Selamat Datang" $nick
 echo
-echo "[1].Cari Data Target"
-echo "[2].Keluar Brutal Ghost Project"
+echo "[1]Cari Data Target"
+echo "[2]Keluar Note Goal Project"
 echo 1/2?
 read info
 
@@ -90,28 +90,28 @@ echo "Mohon Tunggu..."
 load
 clear
 ghost
-echo "Pencarian Target"
+echo "Pencarian Sasaran ye bang eh kak"
 echo
-echo "Masukan Nama Target"
+echo "Masukan Nama Sasaran"
 read name
-echo "Masukan Tanggal Lahir Target"
+echo "Masukan Tanggal Lahir Sasaran"
 echo 1-31?
 echo
 read tanggal
-echo "Masukan Bulan Lahir Target"
+echo "Masukan Bulan Lahir Sasaran"
 echo 1-12?
 echo
 read bulan
-echo "Masukan Tahun Kelahiran Target"
+echo "Masukan Tahun Kelahiran Sasaran"
 echo 1900-2019?
 echo
 read tahun
-echo "Masukan Jenis Kelamin Target"
+echo "Masukan Jenis Kelamin Sasaran"
 echo L/P?
 echo
-read kelamin
+read Jantina
 echo
-echo "Apakah Data Target Sudah Benar"
+echo "Apakah Data Sasaran Sudah Benar"
 echo y/n?
 read pil
 else
@@ -120,7 +120,7 @@ fi
 
 if [ $pil = y ]; then
 clear
-echo "Melakukan Pencarian Target..."
+echo "Melakukan Pencarian Sasaran..."
 echo
 load
 clear
@@ -132,11 +132,11 @@ echo "Nama : "$name
 echo "Tanggal Lahir : "$tanggal
 echo "Bulan Kelahiran : "$bulan
 echo "Tahun Kelahiran : "$tahun
-echo "Jenis Kelamin : "$kelamin
+echo "Jenis Kelamin : "$Jantina
 echo "Kecamatan : Pondok Benda"
 echo "Kelurahan : Serua"
 echo "================================="
-echo "Menggunakan Brutal Ghost Project Lagi?"
+echo "Menggunakan Note Goal Project Lagi?"
 echo y/n?
 read ya
 else
@@ -145,15 +145,15 @@ fi
 
 if [ $ya = y ]; then
 clear
-bash ghost.sh
+bash 4R13NDYGOAL.sh
 else
 echo "Kesalahan"
 fi
 
 if [ $info = 2 ]; then
-echo "TerimaKasih Sudah Menggunakan Tools Saya"
-echo "Salam Hangat"
-echo "-JerkKids"
+echo "TerimaKasih Sudah Menggunakan Tools Saya ye kak eh bang :v"
+echo "Asalammulaikum"
+echo "-4r13ndy"
 exit
 fi
 fi
